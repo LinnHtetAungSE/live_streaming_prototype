@@ -1,0 +1,99 @@
+{
+  "tvList": [
+    {
+      "id": "1",
+      "name": "TV1",
+      "status": "stopped",
+      "watchingOn": "1",
+      "disabledChannels": ["2"]
+    },
+    {
+      "id": "2",
+      "name": "TV2",
+      "status": "stopped",
+      "watchingOn": "2",
+      "disabledChannels": [""]
+    },
+    {
+      "id": "3",
+      "name": "TV3",
+      "status": "stopped",
+      "watchingOn": "3",
+      "disabledChannels": ["1"]
+    }
+  ],
+  "channels": [
+    {
+      "id": "1",
+      "name": "HBO",
+      "programs": [
+        {
+          "name": "Morning Shows",
+          "audio": "sweet-serenade-222444.mp3",
+          "showTime": "2024-07-22 08:00",
+          "endTime": "2024-07-22 10:00"
+        },
+        {
+          "name": "Evening Shows",
+          "audio": "lotus-sky-dreams-216049.mp3",
+          "showTime": "2024-07-22 11:00",
+          "endTime": "2024-07-22 20:00"
+        },
+        {
+          "name": "Night Shows",
+          "audio": "in-slow-motion-inspiring-ambient-lounge-219592.mp3",
+          "showTime": "2024-07-21 22:00",
+          "endTime": "2024-07-22 02:00"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Discovery",
+      "programs": [
+        {
+          "name": "Nature Documentaries",
+          "audio": "sweet-serenade-222444.mp3",
+          "showTime": "2024-07-22 09:00",
+          "endTime": "2024-07-22 11:00"
+        },
+        {
+          "name": "Science Experiments",
+          "audio": "lotus-sky-dreams-216049.mp3",
+          "showTime": "2024-07-22 11:00",
+          "endTime": "2024-07-22 17:00"
+        },
+        {
+          "name": "Wildlife Shows",
+          "audio": "in-slow-motion-inspiring-ambient-lounge-219592.mp3",
+          "showTime": "2024-07-22 20:00",
+          "endTime": "2024-07-22 22:00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ESPN",
+      "programs": [
+        {
+          "name": "Morning Sports",
+          "audio": "sweet-serenade-222444.mp3",
+          "showTime": "2024-07-22 07:00",
+          "endTime": "2024-07-22 12:00"
+        },
+        {
+          "name": "Live Matches",
+          "audio": "lotus-sky-dreams-216049.mp3",
+          "showTime": "2024-07-22 14:00",
+          "endTime": "2024-07-22 16:00"
+        },
+        {
+          "name": "Evening Recap",
+          "audio": "in-slow-motion-inspiring-ambient-lounge-219592.mp3",
+          "showTime": "2024-07-22 19:00",
+          "endTime": "2024-07-22 21:00"
+        }
+      ]
+    }
+  ]
+}

@@ -18,16 +18,46 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.audio-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playbar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+  transition: width 0.1s;
 }
